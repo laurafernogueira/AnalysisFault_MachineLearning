@@ -27,7 +27,7 @@ Os arquivos de simulação são armazenados em subpastas de acordo com os tipos 
 
 ## Estrutura dos Dados
 
-Os dados utilizados neste projeto estão armazenados em arquivos CSV e são organizados em subpastas correspondentes aos tipos de faltas: AB, ABC, AC, ACG, AG, ABG, BC, BCG, BG, CG e NO FAULT. Cada arquivo CSV contém 5000 linhas de valores de tensão e corrente.
+Os dados utilizados neste projeto estão armazenados em arquivos CSV e são organizados em subpastas correspondentes aos tipos de faltas: AB, ABC, AC, ACG, AG, ABG, BC, BCG, BG, CG. Cada arquivo CSV contém 5000 linhas de valores de tensão e corrente.
 
 ## Pré-processamento dos Dados
 
@@ -37,7 +37,7 @@ Os notebooks incluem etapas de pré-processamento dos dados, como:
 - Tratamento de valores ausentes
 - Normalização dos dados
 - Segmentação temporal em janelas de tempo relevantes
-- Extração de características elétricas, como desequilíbrios de fase e sinais de alta frequência (transitórios)
+
 
 ## Modelos de Machine Learning
 
