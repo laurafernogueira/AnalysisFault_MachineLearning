@@ -4,22 +4,22 @@ Este repositório contém notebooks Jupyter usados para classificar tipos de fal
 
 ## Descrição dos Arquivos
 
-- R1_KNN.ipyn*: Implementação do algoritmo K-Nearest Neighbors (KNN) para a classificação de faltas. 
+- R3_KNN.ipyn: Implementação do algoritmo K-Nearest Neighbors (KNN) para a classificação de faltas. 
 
-- R1_Logistic_Regression.ipynb: Implementação do modelo de Regressão Logística para a classificação de faltas. Inclui o pré-processamento dos dados, normalização e treinamento do modelo.
+- R3_Logistic_Regression.ipynb: Implementação do modelo de Regressão Logística para a classificação de faltas. Inclui o pré-processamento dos dados, normalização e treinamento do modelo.
 
-- R1_RandomF.ipynb: Implementação do algoritmo de Floresta Aleatória para a classificação de faltas. Inclui a seleção de hiperparâmetros e avaliação do desempenho do modelo.
+- R3_RandomF.ipynb: Implementação do algoritmo de Floresta Aleatória para a classificação de faltas. Inclui a seleção de hiperparâmetros e avaliação do desempenho do modelo.
 
-- R2_SVM.ipynb: Implementação da Máquina de Vetores de Suporte (SVM) para a classificação de faltas. Utiliza kernel e inclui a otimização de parâmetros usando validação cruzada.
+- R3_SVM.ipynb: Implementação da Máquina de Vetores de Suporte (SVM) para a classificação de faltas. Utiliza kernel e inclui a otimização de parâmetros usando validação cruzada.
 
-- R2_RNA.ipynb: Implementação de Redes Neurais Artificiais (RNA) para a classificação de faltas. Inclui a criação da arquitetura da rede, treinamento e avaliação do modelo.
+- R3_RNA.ipynb: Implementação de Redes Neurais Artificiais (RNA) para a classificação de faltas. Inclui a criação da arquitetura da rede, treinamento e avaliação do modelo.
 
 ## Arquivos de Simulação
 
 - pos0091_AB_resistencia_001_0.csv: Exemplo de um arquivo de simulação contendo dados de uma falta do tipo AB. Este arquivo contém 5000 linhas de valores de tensão e corrente registrados durante uma falta simulada em uma linha de transmissão.
 - Os dados são usados para treinar e testar os modelos de machine learning.
 
-Os arquivos de simulação são armazenados em subpastas de acordo com os tipos de falta, como AB, ABC, AC, ACG, AG, ABG, BC, BCG, BG, CG e NO FAULT. Cada arquivo CSV segue o formato:
+Os arquivos de simulação são armazenados em subpastas de acordo com os tipos de falta, como AB, ABC, AC, ACG, AG, ABG, BC, BCG, BG, CG. Cada arquivo CSV segue o formato:
 
 | Tempo | Tensão_Fase_A | Tensão_Fase_B | Tensão_Fase_C | Corrente_Fase_A | Corrente_Fase_B | Corrente_Fase_C |
 |-------|----------------|----------------|----------------|------------------|------------------|------------------|
@@ -76,7 +76,7 @@ Para avaliar o desempenho dos modelos, as seguintes métricas são utilizadas:
 3. Abra um dos notebooks Jupyter:
 
    bash
-   jupyter notebook R1_KNN.ipynb
+   jupyter notebook R3_KNN.ipynb
    
 4. Execute as células para treinar e avaliar o modelo.
 
